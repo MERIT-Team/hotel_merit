@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'helveticacustom': ["helvetica neue","helvetica, arial","sans-serif"]
+      },
       colors: {
         custom: {
           'beige': '#EAE7DC', // Background Color // Light Beige
@@ -18,7 +21,8 @@ module.exports = {
           // text-custom-gray, 
           // bg-custom-beige, 
           // hover:bg-custom-tan
-        }
+        },
+        
       }
     },
   },
