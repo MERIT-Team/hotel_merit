@@ -9,6 +9,6 @@
 
 ### Navigation Bar
 
-1.
-2.
-3.
+1. Created components and navbar folder, added 'logo.tsx' component, created images folder with 'logo.svg' inside
+2. Created Navbar.tsx / Search.tsx / Container.tsx components, added the to 'layout.tsx' / added a 'secondlogo.svg' file to images
+3. Created Usermenu / Avatar component
