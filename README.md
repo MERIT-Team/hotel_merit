@@ -11,4 +11,4 @@
 
 1. Created components and navbar folder, added 'logo.tsx' component, created images folder with 'logo.svg' inside
 2. Created Navbar.tsx / Search.tsx / Container.tsx components, added the to 'layout.tsx' / added a 'secondlogo.svg' file to images
-3. Created Usermenu / Avatar component
+3. Created Usermenu.tsx / Avatar.tsx / Menuitem.tsx / ClientOnly.tsx component (fixed hydration error)
