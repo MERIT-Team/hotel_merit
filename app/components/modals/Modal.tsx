@@ -23,7 +23,7 @@ export const Modal: React.FC<ModalProps> = ({
     onSubmit,
     title,
     body,
-    footer,
+    footer, 
     actionLabel,
     disabled,
     secondaryAction,
@@ -73,7 +73,7 @@ export const Modal: React.FC<ModalProps> = ({
                                 <div className='text-lg font-semibold'>{title}</div>
                             </div>
                             {/* body section */}
-                            <div className='relative 'p-6 flex-auto>{body}</div>
+                            <div className='relative p-6 flex-auto'>{body}</div>
                             {/* footer section */}
                             <div className='flex flex-col gap-2 p-6'>
                                 <div className='flex flex-row items-center gap-4 w-full'>
