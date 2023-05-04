@@ -7,8 +7,13 @@
 1. Created next application with app directory (Boiler Template)
 2. Removed unnecessary files and made configurations to the styles by using TailwindCSS
 
-### Navigation Bar
+### Navigation Bar UI
 
 1. Created components and navbar folder, added 'logo.tsx' component, created images folder with 'logo.svg' inside
 2. Created Navbar.tsx / Search.tsx / Container.tsx components, added the to 'layout.tsx' / added a 'secondlogo.svg' file to images
 3. Created Usermenu.tsx / Avatar.tsx / Menuitem.tsx / ClientOnly.tsx component (fixed hydration error)
+
+### Authentication / Modal / Register UI
+
+1. Created RegisterModal.tsx / Heading.tsx component, created hooks folder / useRegisterModal.ts
+2. Create Input component for RegisterModal...
