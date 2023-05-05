@@ -15,5 +15,5 @@
 
 ### Authentication / Modal / Register UI
 
-1. Created RegisterModal.tsx / Heading.tsx component, created hooks folder / useRegisterModal.ts
-2. Create Input component for RegisterModal...
+1. Created RegisterModal.tsx / Heading.tsx component, created hooks folder / useRegisterModal.ts (zustand for hooks)
+2. Created Input component / footerContent / added static toaster message / added ToasterProvider.tsx to remove the use client error
