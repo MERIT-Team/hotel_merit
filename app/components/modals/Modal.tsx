@@ -17,7 +17,7 @@ interface ModalProps {
     secondaryActionLabel?: string;
 }
 
-export const Modal: React.FC<ModalProps> = ({
+const Modal: React.FC<ModalProps> = ({
     isOpen,
     onClose,
     onSubmit,
@@ -187,3 +187,5 @@ export const Modal: React.FC<ModalProps> = ({
         </>
       );
     }
+
+export default Modal;
