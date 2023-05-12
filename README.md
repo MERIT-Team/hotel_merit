@@ -1,6 +1,6 @@
 ## MERIT Project
 
-- Our project is a web application that allows users to find and book unique accommodations around the world. It enables hosts to list their properties and connect with travelers looking for a home away from home. With a user-friendly interface and advanced search features, our website promises to offer a seamless booking experience for both hosts and guests.
+- Our project is an Airbnb clone, a web application that allows users to find and book unique accommodations around the world. Just like Airbnb, our platform will enable hosts to list their properties and connect with travelers looking for a home away from home. With a user-friendly interface and advanced search features, our Airbnb clone promises to offer a seamless booking experience for both hosts and guests.
 
 ### Enviromental Setup
 
@@ -17,3 +17,8 @@
 
 1. Created RegisterModal.tsx / Heading.tsx component, created hooks folder / useRegisterModal.ts (zustand for hooks)
 2. Created Input component / footerContent / added static toaster message / added ToasterProvider.tsx to remove the use client error
+
+### MongoDB / Prisma
+
+1. Initialized prisma / created database(atlas) / created schema/collections / initialized next-auth / bcrypt
+2. Create Login Functionality
