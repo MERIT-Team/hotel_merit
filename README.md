@@ -20,5 +20,12 @@
 
 ### MongoDB / Prisma
 
-1. Initialized prisma / created database(atlas) / created schema/collections / initialized next-auth / bcrypt
-2. Create Login Functionality
+1. Initialized prisma / created database(atlas) / created schema/collections / set up next-auth / bcrypt
+2. Created Login Functionality
+   - Created Login Modal / useLoginModal hook (identical to RegisterModal)
+   - Defined SafeUser type to exclude sensitive user information (app/types/index)
+   - Implemented user registration endpoint with password hashing (app/api/register/route)
+   - Created getCurrentUser function to retrieve user information (app/actions/getCurrentUser)
+   - Added Open-Authorization from Github and Google to allow social logins
+   - Added github / google url into next configuration to allow profile image to be shown
+   - Modified .env file
