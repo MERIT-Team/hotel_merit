@@ -29,3 +29,7 @@
    - Added Open-Authorization from Github and Google to allow social logins
    - Added github / google url into next configuration to allow profile image to be shown
    - Modified .env file
+
+### Categories UI
+
+1. Created categoires ui below the navigation bar and added a simple routing using next navigation
