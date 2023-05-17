@@ -5,17 +5,16 @@ import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
-
+import { toast } from "react-hot-toast";
+import { signIn } from "next-auth/react";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import useLoginModal from "@/app/hooks/useLoginModal";
 
 import  Modal  from "./Modal";
 import { Heading } from "../Heading";
+import Button  from "../Button";
 import Input from "../inputs/Input";
-import { toast } from "react-hot-toast";
-import { Button } from "../Button";
-import { signIn } from "next-auth/react";
-import Github from "next-auth/providers/github";
+
 
 
 const RegisterModal = () => {
@@ -42,10 +41,12 @@ const RegisterModal = () => {
         
         axios.post('/api/register', data)
         .then(() =>{
+            toast.success('Registered!');
             registerModal.onClose();
+            loginModal.onOpen();
         })
         .catch((error) => {
-            toast.error("Something went wrong!") // TODO: Add error message from server
+            toast.error(error); 
         })
         .finally(() => {
             setIsLoading(false)
