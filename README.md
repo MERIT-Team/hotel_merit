@@ -39,3 +39,4 @@
 
 1. Category Input / Rent Modal / useRentModalHook / Category Selection
 2. Location selection / Map component / Country Autocomplete (leaflet / world-countries / react-select)
+3. Counter component / Counter
