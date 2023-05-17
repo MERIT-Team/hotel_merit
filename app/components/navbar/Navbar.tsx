@@ -1,11 +1,10 @@
-'use client';
+import { SafeUser } from "@/app/types";
 
 import Container from "../Container"
 import Categories from "./Categories";
 import Logo from "./Logo"
 import Search from "./Search"
 import UserMenu from "./Usermenu";
-import { SafeUser } from "@/app/types";
 
 interface NavbarProps {
     currentUser?: SafeUser | null
@@ -21,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({
                     <div className="flex flex-grow items-center justify-between gap-3 md:gap-0">
                         <Logo/>
                         <Search />
-                        <UserMenu currentUser={currentUser} />
+                        <UserMenu currentUser={currentUser}/>
                     </div>
                 </Container>
             </div>
