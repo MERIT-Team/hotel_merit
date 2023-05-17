@@ -33,3 +33,9 @@
 ### Categories UI
 
 1. Created categoires ui below the navigation bar and added a simple routing using next navigation
+2. ???
+
+### Listing Creation / Renting Function
+
+1. Category Input / Rent Modal / useRentModalHook / Category Selection
+2. Location selection / Map component / Country Autocomplete (leaflet / world-countries / react-select)
