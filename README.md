@@ -33,11 +33,17 @@
 ### Categories UI
 
 1. Created categoires ui below the navigation bar and added a simple routing using next navigation
-2. ???
+2. Add a filtering function
 
-### Listing Creation / Renting Function
+### Listing Creation / Renting Modal / Function
 
 1. Category Input / Rent Modal / useRentModalHook / Category Selection
 2. Location selection / Map component / Country Autocomplete (leaflet / world-countries / react-select)
 3. Counter component / Counter
 4. Cloudinary component / Image upload function
+5. Listings route / description/price section / finished rent modal
+
+### Listing
+
+1. Created ListingCard.tsx component / getListings.ts action
+2. Favoriting functionality
