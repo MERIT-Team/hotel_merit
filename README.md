@@ -46,4 +46,4 @@
 ### Listing
 
 1. Created ListingCard.tsx component / getListings.ts action
-2. Favoriting functionality
+2. Created Favoriting functionality
