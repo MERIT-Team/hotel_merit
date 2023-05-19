@@ -21,7 +21,6 @@ const UserMenu: React.FC<UserMenuProps> = ({
   currentUser
 }) => {
   const router = useRouter();
-
   const loginModal = useLoginModal();
   const registerModal = useRegisterModal();
   const rentModal = useRentModal();
@@ -53,12 +52,12 @@ const UserMenu: React.FC<UserMenuProps> = ({
             py-3 
             px-4 
             rounded-full 
-            hover:bg-neutral-100 
+            hover:bg-neutral-100
             transition 
             cursor-pointer
           "
         >
-          Merit your home
+          Rent your home
         </div>
         <div 
         onClick={toggleOpen}
@@ -102,9 +101,9 @@ const UserMenu: React.FC<UserMenuProps> = ({
           <div className="flex flex-col cursor-pointer">
             {currentUser ? (
               <>
-                <MenuItem label="My trips" onClick={() => {}}/>
+                <MenuItem label="My trips" onClick={() => router.push("/trips")}/>
                 <MenuItem label="My favorites" onClick={() => {}}/>
-                <MenuItem label="My reservations" onClick={() => {}}/>
+                <MenuItem label="My reservations" onClick={() => router.push("/reservations")}/>
                 <MenuItem label="My properties" onClick={() => {}}/>
                 <MenuItem label="Merit your home" onClick={rentModal.onOpen}/>
                 <hr />

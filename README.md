@@ -51,3 +51,9 @@
 4. Created Reservation section
    - Created UI for reservations calendar / heading / info section
    - Created getReservation.ts action to implement reservation logic
+5. Created My Reservations & My Trips page
+   - Cancel reservation function
+   - Cancel guest reservation function
+6. Create My Favorites & My properties page
+   -
+   -
