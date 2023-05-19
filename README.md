@@ -43,7 +43,11 @@
 4. Cloudinary component / Image upload function
 5. Listings route / description/price section / finished rent modal
 
-### Listing
+### Listing / Individual Listing
 
 1. Created ListingCard.tsx component / getListings.ts action
 2. Created Favoriting functionality
+3. Created Individual listing view / created route / getListingById action
+4. Created Reservation section
+   - Created UI for reservations calendar / heading / info section
+   - Created getReservation.ts action to implement reservation logic
