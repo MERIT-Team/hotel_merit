@@ -54,6 +54,14 @@
 5. Created My Reservations & My Trips page
    - Cancel reservation function
    - Cancel guest reservation function
-6. Create My Favorites & My properties page
-   -
-   -
+6. Created My Favorites & My properties page
+   - Deleting property function
+
+### Fitering / Query
+
+1. Search Modal / getListings action / useSearchModal hook
+
+### Extra
+
+1. loading page, error page, Loader component
+2. middleware.ts
