@@ -46,7 +46,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
           onClick={onRent}
           className="
             hidden
-            md:block
+            lg:block
             text-sm 
             font-semibold 
             py-3 
