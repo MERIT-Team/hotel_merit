@@ -65,3 +65,5 @@
 
 1. loading page, error page, Loader component
 2. middleware.ts
+3. Footer.tsx / Fade.tsx / Routing 
+4. About page 
