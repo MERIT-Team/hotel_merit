@@ -13,7 +13,8 @@ module.exports = {
           'tan': '#D8C3A5', // Hover Color? // Complimentary Color? // Slightly Darker Beige
           'gray': '#8E8D8A', // Footer Color // Text Color? // Gray
           'coral': '#E98074', // Hover Color? // Complimentary Color? // Light Red
-          'red': '#E85A4F', // Main Color // Pop Color // Bright Red
+          'red': '#E85A4F',
+          'soft-red': '#fad9d7' // Main Color // Pop Color // Bright Red
           // Example of how to use colors: 
           // text-custom-gray, 
           // bg-custom-beige, 
