@@ -57,7 +57,7 @@
 6. Created My Favorites & My properties page
    - Deleting property function
 
-### Fitering / Query
+### Filtering / Query
 
 1. Search Modal / getListings action / useSearchModal hook
 
