@@ -97,22 +97,41 @@ const Footer: React.FC<FooterProps> = ({ currentUser }) => {
         </div>
       )
     }
+
+
+    if (!currentUser) {
+      var right = (
+        <div
+          onClick={registerModal.onOpen}
+          className="flex flex-col px-2 justify-center items-center hover:bg-neutral-100 transition cursor-pointer"
+        >
+          <CgProfile size={22} />
+          <div className="text-sm font-light mt-1">Register</div>
+        </div>
+      );
+    } else {
+      right = (
+        <div
+          onClick={() => router.push("/favorites")}
+          className="flex flex-col px-2 justify-center items-center hover:bg-neutral-100 transition cursor-pointer"
+        >
+          <GrFavorite size={22} />
+          <div className="text-sm font-light mt-1">Favorites</div>
+        </div>
+      );
+    }
     bodyContent = (
       <>
         <div className="flex flex-row justify-around items-center">
-            <div onClick={searchModal.onOpen} className="flex flex-col px-2 justify-center items-center hover:bg-neutral-100 transition cursor-pointer">
-                <IoSearch size={22}/>
-                <div className="text-sm font-light mt-1">
-                    Search
-                </div>
-            </div>
-            {about}
-            <div onClick={() => router.push("/favorites")} className="flex flex-col px-2 justify-center items-center hover:bg-neutral-100 transition cursor-pointer">
-                <GrFavorite size={22}/>
-                <div className="text-sm font-light mt-1">
-                    Favorites
-                </div>
-            </div>
+          <div
+            onClick={searchModal.onOpen}
+            className="flex flex-col px-2 justify-center items-center hover:bg-neutral-100 transition cursor-pointer"
+          >
+            <IoSearch size={22} />
+            <div className="text-sm font-light mt-1">Search</div>
+          </div>
+          {about}
+          {right}
         </div>
       </>
     );

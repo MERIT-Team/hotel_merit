@@ -9,7 +9,11 @@ const Intro: React.FC = () => {
   return (
     <ClientOnly>
         <Container>
-            {/* About page */}
+            <div className='flex flex-col justify-center items-center py-20'>
+              <div className='text-custom-red text-6xl'>
+                About us page coming soon...
+              </div>
+            </div>
         </Container>
     </ClientOnly>
     
