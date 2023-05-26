@@ -10,6 +10,7 @@ import RentModal from './components/modals/RentModal';
 import SearchModal from './components/modals/SearchModal';
 import Footer from './components/Footer';
 import Fade from './components/Fade';
+import WebIcon from './components/WebIcon';
 
 export const metadata = {
   title: 'Merit Project',
@@ -28,6 +29,7 @@ export default async function RootLayout({
   const currentUser = await getCurrentUser()
   return (
     <html lang="en">
+      <WebIcon />
       <body className={font.className}>
         <ClientOnly>
           <ToasterProvider />
